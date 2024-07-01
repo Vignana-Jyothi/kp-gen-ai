@@ -1,0 +1,103 @@
+
+### Slide 1: Introduction
+**Title:** College Activities Management and Support
+
+**Content:**
+- Overview of managing college activities through innovative solutions.
+- Introduction to the various tools and systems proposed for enhancing student and faculty experiences.
+
+### Slide 2: Blog, Instagram & YouTube Content Generation
+**Title:** Automated Content Generation for Blog, Instagram, & YouTube
+
+**Content:**
+- **Objective:** Streamline content creation for digital platforms using data from college activities.
+- **Approach:**
+  - **Emails & WhatsApp Data:** Extract and curate key highlights.
+  - **Content Strategy:** Generate engaging blog posts, Instagram updates, and YouTube videos.
+- **Benefits:** Consistent and engaging content, increased digital presence.
+
+### Slide 3: Chatbot for Admission Enquiries
+**Title:** AI-Powered Chatbot for Admission Enquiries
+
+**Content:**
+- **Objective:** Provide instant responses to prospective students' queries.
+- **Features:**
+  - 24/7 availability.
+  - Real-time responses based on common queries.
+  - Personalized interactions.
+- **Benefits:** Improved admission process efficiency, enhanced user experience.
+
+### Slide 4: Student Resume Generation
+**Title:** Automated Student Resume Generation
+
+**Content:**
+- **Objective:** Help students create industry-standard resumes based on their activities and achievements.
+- **Features:**
+  - Activity tracking.
+  - Skill mapping to industry standards.
+  - Customizable resume templates.
+- **Benefits:** Professional resumes, increased employability.
+
+### Slide 5: Career Mentoring
+**Title:** Career Mentoring and Student Follow-Up
+
+**Content:**
+- **Objective:** Guide students in their career paths with continuous engagement.
+- **Features:**
+  - Personalized learning plans.
+  - Regular check-ins and progress tracking.
+  - Engaging and fun mentorship sessions.
+- **Benefits:** Better career outcomes, motivated students.
+
+### Slide 6: VNRVJIET ChatAgent
+**Title:** Comprehensive ChatAgent for VNRVJIET
+
+**Content:**
+- **Objective:** Provide quick answers to students and staff about VNRVJIET.
+- **Features:**
+  - Database integration with college information.
+  - Real-time query resolution.
+  - User-friendly interface.
+- **Benefits:** Enhanced communication, quick information access.
+
+### Slide 7: Lab Usage Based on Student Interests
+**Title:** Lab Recommendations Based on Student Interests
+
+**Content:**
+- **Objective:** Guide students to the most relevant labs based on their interests.
+- **Features:**
+  - Interest-based lab matching.
+  - Detailed information on lab offerings.
+  - Usage tracking and feedback.
+- **Benefits:** Optimal resource utilization, enhanced learning experience.
+
+### Slide 8: Student Stress Counseling
+**Title:** Student Stress Counseling and Motivation
+
+**Content:**
+- **Objective:** Provide support to students to manage stress and stay motivated.
+- **Features:**
+  - On-campus activity suggestions.
+  - One-on-one counseling sessions.
+  - Stress management workshops.
+- **Benefits:** Improved mental health, motivated students.
+
+### Slide 9: Automated Question Paper Generation
+**Title:** Automated Question Paper Generation from Syllabus
+
+**Content:**
+- **Objective:** Assist faculty in creating question papers from the syllabus PDFs.
+- **Features:**
+  - Syllabus parsing.
+  - Question bank generation.
+  - Customizable question papers.
+- **Benefits:** Time-saving for faculty, consistent and comprehensive assessments.
+
+### Slide 10: Conclusion
+**Title:** Conclusion
+
+**Content:**
+- Recap of the proposed solutions.
+- Emphasis on the benefits to the college community.
+- Call to action for implementation and feedback.
+
