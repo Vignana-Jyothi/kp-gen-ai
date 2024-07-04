@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Answering</title>
+</head>
+<body>
+    <h1>Question Answering</h1>
+    <form id="qa-form">
+        <label for="context">Paragraph:</label><br>
+        <textarea id="context" name="context" rows="4" cols="50"></textarea><br>
+        <label for="question">Question:</label><br>
+        <input type="text" id="question" name="question"><br><br>
+        <input type="submit" value="Get Answer">
+    </form>
+    <h2>Answer:</h2>
+    <p id="answer"></p>
+
+    <script>
+        document.getElementById('qa-form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const context = document.getElementById('context').value;
+            const question = document.getElementById('question').value;
+            
+            const response = await fetch('/question-answering', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ context, question })
+            });
+
+            const data = await response.json();
+            document.getElementById('answer').textContent = data.answer;
+        });
+    </script>
+</body>
+</html>
