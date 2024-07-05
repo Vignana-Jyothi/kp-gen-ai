@@ -33,6 +33,27 @@
                 <div class="list-group-item">
                     <div class="post-header">Timestamp: {{ item.timestamp }}</div>
                     <pre class="post-content">{{ item.content | safe }}</pre>
+                    <form method="post" action="/submit_feedback">
+                        <input type="hidden" name="timestamp" value="{{ item.timestamp }}">
+                        <input type="hidden" name="content" value="{{ item.content }}">
+                        <div class="form-group">
+                            <label for="content_rating_{{ loop.index }}">Content Rating (1-5):</label>
+                            <input type="number" class="form-control" id="content_rating_{{ loop.index }}" name="content_rating" min="1" max="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="content_comment_{{ loop.index }}">Content Comment:</label>
+                            <textarea class="form-control" id="content_comment_{{ loop.index }}" name="content_comment" rows="2" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="structure_rating_{{ loop.index }}">Structure Rating (1-5):</label>
+                            <input type="number" class="form-control" id="structure_rating_{{ loop.index }}" name="structure_rating" min="1" max="5" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="structure_comment_{{ loop.index }}">Structure Comment:</label>
+                            <textarea class="form-control" id="structure_comment_{{ loop.index }}" name="structure_comment" rows="2" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                    </form>
                 </div>
             {% endfor %}
         </div>

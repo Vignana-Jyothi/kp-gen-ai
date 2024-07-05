@@ -15,6 +15,13 @@ project/
 
 pip install langchain openai python-dotenv
 
+pip install Flask
+
+
+Run the Web Server
+python app.py
+
+
 
 Run the Server
  source ~/kpenvs/GenAI/bin/activate
