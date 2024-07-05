@@ -2,6 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 import openai
+from uuid import uuid4
 
 # Load environment variables from .env file
 load_dotenv()
@@ -28,6 +29,7 @@ def generate_content(parsed_data):
             messages=messages
         )
         content_list.append({
+            'id': str(uuid4()),
             'content': response.choices[0].message['content'],
             'timestamp': data['timestamp']
         })
