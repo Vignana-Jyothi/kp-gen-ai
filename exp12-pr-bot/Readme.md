@@ -1,21 +1,18 @@
 project/
 │
-├── input_data/
-│   └── whatsapp_messages.json
-│
-├── content_generator.py
-│
+├── app.py
 ├── pr_content_generated.json
-│
-├── pr_content_reviewed.json
-│
-├── content_regenerator.py
-│
-└── pr_content_regenerated.json
+├── templates/
+│   └── index.html
+└── static/
+    ├── styles.css
+    └── scripts.js
+
 
 pip install langchain openai python-dotenv
 
 pip install Flask
+ pip install flask_cors
 
 
 Run the Web Server
